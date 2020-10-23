@@ -1,0 +1,64 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.21.3",
+      "concept" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/valueset-ordinalValue",
+          "valueDecimal" : 0
+        }],
+        "code" : "Act0",
+        "display" : "Lying quiet",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Ligt rustig, in een normale houding, maakt rustige bewegingen"
+        }]
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/valueset-ordinalValue",
+          "valueDecimal" : 1
+        }],
+        "code" : "Act1",
+        "display" : "Squirming",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Kronkelt, wringt zich in bochten, verandert steeds van houding,is gespannen"
+        }]
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/valueset-ordinalValue",
+          "valueDecimal" : 2
+        }],
+        "code" : "Act2",
+        "display" : "Arched",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Overstrekt zich, trekt een holle rug of ligt ineengekrompen,is verstijfd of maakt schokkende bewegingen"
+        }]
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.21.3"
+}
+-------------------------------------------------------------------------------------

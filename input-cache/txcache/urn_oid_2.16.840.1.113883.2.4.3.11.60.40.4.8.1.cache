@@ -1,0 +1,65 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.8.1",
+      "concept" : [{
+        "code" : "UNDRESSED",
+        "display" : "Undressed",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Zonder kleding."
+        }]
+      },
+      {
+        "code" : "MINIMAL",
+        "display" : "Minimal dressed",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Lichte kleding/ondergoed [Kleding die niet significant het gewicht beïnvloedt.]"
+        }]
+      },
+      {
+        "code" : "FULL",
+        "display" : "Fully dressed",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Volledig gekleed, inclusief schoenen [Kleren die een significante bijdrage hebben aan het gewicht, inclusief schoenen.]"
+        }]
+      },
+      {
+        "code" : "DIAPER",
+        "display" : "Diaper",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Luier [Individu draagt alleen een luier - zou significant aan het gewicht kunnen bijdragen.]"
+        }]
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.8.1"
+}
+-------------------------------------------------------------------------------------

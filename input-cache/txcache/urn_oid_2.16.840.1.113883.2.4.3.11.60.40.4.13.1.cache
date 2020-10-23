@@ -1,0 +1,130 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.13.1",
+      "concept" : [{
+        "code" : "BOVENW",
+        "display" : "Bovenwoning",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Bovenwoning"
+        }]
+      },
+      {
+        "code" : "BENEDENW",
+        "display" : "Benedenwoning",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Benedenwoning"
+        }]
+      },
+      {
+        "code" : "EENGEZW",
+        "display" : "Eengezinswoning",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Eengezinswoning"
+        }]
+      },
+      {
+        "code" : "FLATW",
+        "display" : "Appartement of flatwoning",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Appartement of flatwoning"
+        }]
+      },
+      {
+        "code" : "AANLW",
+        "display" : "Aanleunwoning",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Aanleunwoning"
+        }]
+      },
+      {
+        "code" : "WOONB",
+        "display" : "Woonboot",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Woonboot"
+        }]
+      },
+      {
+        "code" : "WOONW",
+        "display" : "Woonwagen",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Woonwagen"
+        }]
+      },
+      {
+        "code" : "AWBZIN",
+        "display" : "Instelling AWBZ",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Instelling AWBZ"
+        }]
+      },
+      {
+        "code" : "DAKLOO",
+        "display" : "Dakloos",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Dakloos"
+        }]
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.13.1"
+}
+-------------------------------------------------------------------------------------

@@ -1,0 +1,65 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:oid:2.16.840.1.113883.2.4.3.11.60.101.5.4",
+      "concept" : [{
+        "code" : "NL1",
+        "display" : "Eigen geslachtsnaam",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Eigen geslachtsnaam"
+        }]
+      },
+      {
+        "code" : "NL2",
+        "display" : "Geslachtsnaam partner",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Geslachtsnaam partner"
+        }]
+      },
+      {
+        "code" : "NL3",
+        "display" : "Geslachtsnaam partner gevolgd door eigen geslachtsnaam",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Geslachtsnaam partner gevolgd door eigen geslachtsnaam"
+        }]
+      },
+      {
+        "code" : "NL4",
+        "display" : "Eigen geslachtsnaam gevolgd door geslachtsnaam partner",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Eigen geslachtsnaam gevolgd door geslachtsnaam partner"
+        }]
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system urn:oid:2.16.840.1.113883.2.4.3.11.60.101.5.4"
+}
+-------------------------------------------------------------------------------------

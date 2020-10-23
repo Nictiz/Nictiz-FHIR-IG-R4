@@ -1,0 +1,234 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:oid:2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.999",
+      "concept" : [{
+        "code" : "1",
+        "display" : "Geneesmiddel niet verstrekt",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Geneesmiddel niet verstrekt"
+        }]
+      },
+      {
+        "code" : "2",
+        "display" : "Niet leverbaar",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Niet leverbaar"
+        }]
+      },
+      {
+        "code" : "3",
+        "display" : "Medicatieafspraak gewijzigd: substantie",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Medicatieafspraak gewijzigd: substantie"
+        }]
+      },
+      {
+        "code" : "4",
+        "display" : "Medicatieafspraak gewijzigd: dosering",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Medicatieafspraak gewijzigd: dosering"
+        }]
+      },
+      {
+        "code" : "5",
+        "display" : "Medicatieafspraak gewijzigd: farmaceutische vorm",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Medicatieafspraak gewijzigd: farmaceutische vorm"
+        }]
+      },
+      {
+        "code" : "6",
+        "display" : "Medicatieafspraak gewijzigd: verwisseling van persoon",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Medicatieafspraak gewijzigd: verwisseling van persoon"
+        }]
+      },
+      {
+        "code" : "7",
+        "display" : "Machtiging aangevraagd",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Machtiging aangevraagd"
+        }]
+      },
+      {
+        "code" : "8",
+        "display" : "Machtiging afgewezen",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Machtiging afgewezen"
+        }]
+      },
+      {
+        "code" : "9",
+        "display" : "Machtiging in gebruik nemen",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Machtiging in gebruik nemen"
+        }]
+      },
+      {
+        "code" : "10",
+        "display" : "Gebruiksinstructie gegeven",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Gebruiksinstructie gegeven"
+        }]
+      },
+      {
+        "code" : "11",
+        "display" : "Controle inhalatietechniek",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Controle inhalatietechniek"
+        }]
+      },
+      {
+        "code" : "12",
+        "display" : "Meter periodieke controle",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Meter periodieke controle"
+        }]
+      },
+      {
+        "code" : "13",
+        "display" : "Pen controle/omruil",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Pen controle/omruil"
+        }]
+      },
+      {
+        "code" : "14",
+        "display" : "Bijwerking besproken",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Bijwerking besproken"
+        }]
+      },
+      {
+        "code" : "15",
+        "display" : "Afhandeling bijwerking niet-lareb",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Afhandeling bijwerking niet-lareb"
+        }]
+      },
+      {
+        "code" : "16",
+        "display" : "Melding lareb",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Melding lareb"
+        }]
+      },
+      {
+        "code" : "17",
+        "display" : "Medicatiebewaking OT",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Medicatiebewaking OT"
+        }]
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system urn:oid:2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.999"
+}
+-------------------------------------------------------------------------------------

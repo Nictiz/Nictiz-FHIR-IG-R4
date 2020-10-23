@@ -1,0 +1,221 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:oid:2.16.840.1.113883.2.4.3.11.22.472",
+      "concept" : [{
+        "code" : "1",
+        "display" : "Eerste relatie/contactpersoon",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Eerste relatie/contactpersoon"
+        }]
+      },
+      {
+        "code" : "2",
+        "display" : "Tweede relatie/contactpersoon",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Tweede relatie/contactpersoon"
+        }]
+      },
+      {
+        "code" : "3",
+        "display" : "Curator (juridisch)",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Curator (juridisch)"
+        }]
+      },
+      {
+        "code" : "4",
+        "display" : "Financieel (gemachtigd)",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Financieel (gemachtigd)"
+        }]
+      },
+      {
+        "code" : "5",
+        "display" : "Financieel (toetsing)",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Financieel (toetsing)"
+        }]
+      },
+      {
+        "code" : "6",
+        "display" : "Leefeenheid",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Leefeenheid"
+        }]
+      },
+      {
+        "code" : "7",
+        "display" : "Hulpverlener",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Hulpverlener"
+        }]
+      },
+      {
+        "code" : "9",
+        "display" : "Anders",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Anders"
+        }]
+      },
+      {
+        "code" : "11",
+        "display" : "Voogd",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Voogd"
+        }]
+      },
+      {
+        "code" : "14",
+        "display" : "Bewindvoerder",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Bewindvoerder"
+        }]
+      },
+      {
+        "code" : "15",
+        "display" : "Mentor",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Mentor"
+        }]
+      },
+      {
+        "code" : "19",
+        "display" : "Buur",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Buur"
+        }]
+      },
+      {
+        "code" : "20",
+        "display" : "Vriend(in)/kennis",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Vriend(in)/kennis"
+        }]
+      },
+      {
+        "code" : "21",
+        "display" : "Cliëntondersteuner",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Cliëntondersteuner"
+        }]
+      },
+      {
+        "code" : "23",
+        "display" : "Contactpersoon",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Contactpersoon"
+        }]
+      },
+      {
+        "code" : "24",
+        "display" : "Wettelijke vertegenwoordiger",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Wettelijke vertegenwoordiger"
+        }]
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system urn:oid:2.16.840.1.113883.2.4.3.11.22.472"
+}
+-------------------------------------------------------------------------------------

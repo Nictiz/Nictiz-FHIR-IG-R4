@@ -1,0 +1,104 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.3.1",
+      "concept" : [{
+        "code" : "Type 1",
+        "display" : "Separate hard lumps, like nuts.",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Losse harde keutels, zoals noten"
+        }]
+      },
+      {
+        "code" : "Type 2",
+        "display" : "Sausage-shaped but lumpy.",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Als een worst, maar klonterig"
+        }]
+      },
+      {
+        "code" : "Type 3",
+        "display" : "Like sausage but with  cracks on its surface.",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Als een worst, maar met barstjes aan de buitenkant"
+        }]
+      },
+      {
+        "code" : "Type 4",
+        "display" : "Like sausage or snake, smooth and soft.",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Als een worst of slang, glad en zacht"
+        }]
+      },
+      {
+        "code" : "Type 5",
+        "display" : "Soft blobs with clear-cut edges",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Zachte keutels met duidelijke randen"
+        }]
+      },
+      {
+        "code" : "Type 6",
+        "display" : "Fluffy pieces with ragged edges",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Zachte stukjes met gehavende randen"
+        }]
+      },
+      {
+        "code" : "Type 7",
+        "display" : "Entirely liquid",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Helemaal vloeibaar"
+        }]
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.3.1"
+}
+-------------------------------------------------------------------------------------

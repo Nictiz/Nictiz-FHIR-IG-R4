@@ -1,0 +1,130 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.14.1",
+      "concept" : [{
+        "code" : "NR",
+        "display" : "Niet reanimeren verklaring",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Niet reanimeren verklaring"
+        }]
+      },
+      {
+        "code" : "VOL",
+        "display" : "Volmacht",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Volmacht"
+        }]
+      },
+      {
+        "code" : "VERB",
+        "display" : "Behandelverbod",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Behandelverbod"
+        }]
+      },
+      {
+        "code" : "VERBVL",
+        "display" : "Behandelverbod met aanvulling Voltooid Leven",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Behandelverbod met aanvulling Voltooid Leven"
+        }]
+      },
+      {
+        "code" : "MON",
+        "display" : "Mondelinge afspraak",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Mondelinge afspraak"
+        }]
+      },
+      {
+        "code" : "EU",
+        "display" : "Euthanasieverzoek",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Euthanasieverzoek"
+        }]
+      },
+      {
+        "code" : "EUD",
+        "display" : "Euthanasieverzoek met aanvulling Dementie",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Euthanasieverzoek met aanvulling Dementie"
+        }]
+      },
+      {
+        "code" : "LW",
+        "display" : "Levenswensverklaring",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Levenswensverklaring"
+        }]
+      },
+      {
+        "code" : "DO",
+        "display" : "Verklaring donorschap",
+        "designation" : [{
+          "language" : "nl-NL",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "Verklaring donorschap"
+        }]
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.14.1"
+}
+-------------------------------------------------------------------------------------
