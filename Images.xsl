@@ -5,21 +5,16 @@
     xmlns:f="http://hl7.org/fhir"
     exclude-result-prefixes="#all"
     version="2.0">
-    <xsl:import href="buildResources.xsl"/>
-    
-    <xsl:output indent="yes" omit-xml-declaration="no"/>
-        
-    <xsl:param name="inputdir">input/</xsl:param>
-    
+    <xsl:import href="buildResources.xsl"/>    
+    <xsl:output indent="yes" omit-xml-declaration="no"/>        
+    <xsl:param name="inputdir">input/</xsl:param>    
     <xsl:variable name="instances" select="collection(concat($inputdir, 'examples/', '?select=*.xml;recurse=yes'))/f:*" as="item()*"/>
-    <xsl:variable name="resources" select="collection(concat($inputdir, 'resources/', '?select=*.xml;recurse=yes'))/f:*" as="item()*"/>
-    
+    <xsl:variable name="resources" select="collection(concat($inputdir, 'resources/', '?select=*.xml;recurse=yes'))/f:*" as="item()*"/>    
     <xd:doc>
         <xd:desc/>
     </xd:doc>
     <xsl:template match="/">
-        <xsl:message>Input dir   : <xsl:value-of select="$inputdir"/></xsl:message>
-        
+        <xsl:message>Input dir   : <xsl:value-of select="$inputdir"/></xsl:message>        
         <xsl:comment>Start by finding all references to "myig" and updating to appropriate text for your IG, including changing realm</xsl:comment>
         <ImplementationGuide xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir https://build.fhir.org/fhir-all.xsd" xmlns="http://hl7.org/fhir">
             <id value="nictiz.fhir.nl.r4.images"/>
@@ -64,16 +59,14 @@
              <xsl:comment>This is whatever FHIR version(s) the IG artifacts are targeting (not the version of this file, which should always be 'current release')</xsl:comment> 
             <fhirVersion value="4.0.1"/>
             <dependsOn>
-                <uri value="http://nictiz.nl/fhir/ImplementationGuide/nictiz.fhir.nl.stu3.zib2017"/>
-                <packageId value="nictiz.fhir.nl.stu3.zib2017"/>
+                <uri value="http://nictiz.nl/fhir/ImplementationGuide/nictiz.fhir.nl.r4.zib2020"/>
+                <packageId value="nictiz.fhir.nl.r4.zib2020"/>
                 <version value="dev"/>
             </dependsOn>
             <definition>
                  <xsl:comment>You don't need to define any groupings. The IGPublisher will define them for you. You only need to do so if your IG is 'special' 
-                     and it's inappropriate to use the defaults.  Feel free to provide feedback about the defaults...</xsl:comment> 
-                
-                <xsl:call-template name="createResources"/>
-                
+                     and it's inappropriate to use the defaults.  Feel free to provide feedback about the defaults...</xsl:comment>                
+                <xsl:call-template name="createResources"/>                
                 <page>
                     <xsl:comment>The root will always be toc.html - the template will force it if you don't do it</xsl:comment> 
                     <nameUrl value="toc.html"/>

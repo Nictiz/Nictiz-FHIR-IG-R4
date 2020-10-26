@@ -65,10 +65,8 @@
             </dependsOn>
             <definition>
                  <xsl:comment>You don't need to define any groupings. The IGPublisher will define them for you. You only need to do so if your IG is 'special' 
-                     and it's inappropriate to use the defaults.  Feel free to provide feedback about the defaults...</xsl:comment> 
-                
-                <xsl:call-template name="createResources"/>
-                
+                     and it's inappropriate to use the defaults.  Feel free to provide feedback about the defaults...</xsl:comment>                
+                <xsl:call-template name="createResources"/>                
                 <page>
                     <xsl:comment>The root will always be toc.html - the template will force it if you don't do it</xsl:comment> 
                     <nameUrl value="toc.html"/>

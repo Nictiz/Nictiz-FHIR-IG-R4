@@ -54,13 +54,11 @@
             <xsl:comment>This should be changed to 'not-open-source' or another license if appropriate for non-HL7-published content</xsl:comment> 
             <license value="CC0-1.0"/>
             <xsl:comment>This is whatever FHIR version(s) the IG artifacts are targeting (not the version of this file, which should always be 'current release')</xsl:comment> 
-            <fhirVersion value="3.0.2"/>
+            <fhirVersion value="4.0.1"/>
             <definition>
                 <xsl:comment>You don't need to define any groupings. The IGPublisher will define them for you. You only need to do so if your IG is 'special' 
-                     and it's inappropriate to use the defaults.  Feel free to provide feedback about the defaults...</xsl:comment> 
-                
-                <xsl:call-template name="createResources"/>
-                
+                     and it's inappropriate to use the defaults.  Feel free to provide feedback about the defaults...</xsl:comment>                
+                <xsl:call-template name="createResources"/>                
                 <page>
                     <xsl:comment>The root will always be toc.html - the template will force it if you don't do it</xsl:comment> 
                     <nameUrl value="toc.html"/>
