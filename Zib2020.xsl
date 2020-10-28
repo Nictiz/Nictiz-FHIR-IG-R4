@@ -105,7 +105,7 @@
                     <value value="true"/>
                 </parameter>
                 <xsl:comment>List any URLs we purposely have in our set but do not match the guides preferred URL</xsl:comment>
-                <xsl:for-each select="$resources[f:url[starts-with(@value, 'http://decor.nictiz.nl/fhir/')] | f:url[starts-with(@value, 'http://fhir.nl/fhir/')] | f:url[starts-with(@value, 'urn:oid:')]]">
+                <xsl:for-each select="$resources[f:url[starts-with(@value, 'http://decor.nictiz.nl/fhir/')] | f:url[starts-with(@value, 'http://fhir.nl/fhir/')] | f:url[starts-with(@value, 'http://nictiz.nl/fhir/NamingSystem')] | f:url[starts-with(@value, 'urn:oid:')]]">
                     <xsl:sort select="f:url/@value"/>
                     <parameter>
                         <code value="special-url"/>
