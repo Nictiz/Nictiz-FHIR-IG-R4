@@ -27,7 +27,7 @@
             
             <xsl:for-each select="current-group()[current-grouping-key() = ('ConceptMap', 'NamingSystem', 'OperationDefinition', 'SearchParameter')]">
                 <xsl:variable name="resourceId" select="f:id/@value" as="xs:string"/>
-                <resource>
+                <resource xmlns="http://hl7.org/fhir">
                     <reference>
                         <reference value="{$resourceType}/{$resourceId}"/>
                     </reference>
@@ -45,7 +45,7 @@
             <xsl:variable name="resourceProfile" select="f:meta/f:profile/@value" as="xs:string?"/>            
             <xsl:choose>
                 <xsl:when test="empty($resourceProfile) or $resourceProfile = $resources[self::f:StructureDefinition]/f:url/@value">
-                    <resource>
+                    <resource xmlns="http://hl7.org/fhir">
                         <reference>
                             <reference value="{$resourceType}/{$resourceId}"/>
                         </reference>
