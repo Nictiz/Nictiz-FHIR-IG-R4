@@ -13,7 +13,7 @@
     <xsl:template match="/">
         <xsl:message>Input dir   : <xsl:value-of select="$inputdir"/></xsl:message>        
         <xsl:comment>Start by finding all references to "myig" and updating to appropriate text for your IG, including changing realm</xsl:comment>
-        <ImplementationGuide xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir https://build.fhir.org/fhir-all.xsd" xmlns="http://hl7.org/fhir">
+        <ImplementationGuide xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir https://hl7.org/fhir/R4/fhir-all.xsd" xmlns="http://hl7.org/fhir">
             <id value="nictiz.fhir.nl.r4.zib2020"/>
             <xsl:comment>&lt;extension url="http://hl7.org/fhir/tools/StructureDefinition/igpublisher-spreadsheet">
                 &lt;valueString value="resources-spreadsheet.xml"/>
@@ -105,7 +105,7 @@
                     <value value="true"/>
                 </parameter>
                 <xsl:comment>List any URLs we purposely have in our set but do not match the guides preferred URL</xsl:comment>
-                <xsl:for-each select="$resources[f:url[starts-with(@value, 'http://decor.nictiz.nl/fhir/')] | f:url[starts-with(@value, 'http://fhir.nl/fhir/')]]">
+                <xsl:for-each select="$resources[f:url[starts-with(@value, 'http://decor.nictiz.nl/fhir/')] | f:url[starts-with(@value, 'http://fhir.nl/fhir/')] | f:url[starts-with(@value, 'urn:oid:')]]">
                     <xsl:sort select="f:url/@value"/>
                     <parameter>
                         <code value="special-url"/>
