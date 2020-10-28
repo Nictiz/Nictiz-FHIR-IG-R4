@@ -219,3 +219,219 @@ e: {
   "error" : "Error from server: Unable to provide support for code system urn:oid:2.16.840.1.113883.2.4.3.11.22.472"
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:oid:2.16.840.1.113883.2.4.3.11.22.472",
+      "concept" : [{
+        "code" : "1",
+        "display" : "Eerste relatie/contactpersoon"
+      },
+      {
+        "code" : "2",
+        "display" : "Tweede relatie/contactpersoon"
+      },
+      {
+        "code" : "3",
+        "display" : "Curator (juridisch)"
+      },
+      {
+        "code" : "4",
+        "display" : "Financieel (gemachtigd)"
+      },
+      {
+        "code" : "5",
+        "display" : "Financieel (toetsing)"
+      },
+      {
+        "code" : "6",
+        "display" : "Leefeenheid"
+      },
+      {
+        "code" : "7",
+        "display" : "Hulpverlener"
+      },
+      {
+        "code" : "9",
+        "display" : "Anders"
+      },
+      {
+        "code" : "11",
+        "display" : "Voogd"
+      },
+      {
+        "code" : "14",
+        "display" : "Bewindvoerder"
+      },
+      {
+        "code" : "15",
+        "display" : "Mentor"
+      },
+      {
+        "code" : "19",
+        "display" : "Buur"
+      },
+      {
+        "code" : "20",
+        "display" : "Vriend(in)/kennis"
+      },
+      {
+        "code" : "21",
+        "display" : "Cliëntondersteuner"
+      },
+      {
+        "code" : "23",
+        "display" : "Contactpersoon"
+      },
+      {
+        "code" : "24",
+        "display" : "Wettelijke vertegenwoordiger"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system urn:oid:2.16.840.1.113883.2.4.3.11.22.472"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:oid:2.16.840.1.113883.2.4.3.11.22.472",
+      "concept" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments",
+          "valueString" : "Eerste relatie/contactpersoon"
+        }],
+        "code" : "1",
+        "display" : "Eerste relatie/contactpersoon"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments",
+          "valueString" : "Tweede relatie/contactpersoon"
+        }],
+        "code" : "2",
+        "display" : "Tweede relatie/contactpersoon"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments",
+          "valueString" : "Curator (juridisch)"
+        }],
+        "code" : "3",
+        "display" : "Curator (juridisch)"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments",
+          "valueString" : "Financieel (gemachtigd)"
+        }],
+        "code" : "4",
+        "display" : "Financieel (gemachtigd)"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments",
+          "valueString" : "Financieel (toetsing)"
+        }],
+        "code" : "5",
+        "display" : "Financieel (toetsing)"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments",
+          "valueString" : "Leefeenheid"
+        }],
+        "code" : "6",
+        "display" : "Leefeenheid"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments",
+          "valueString" : "Hulpverlener"
+        }],
+        "code" : "7",
+        "display" : "Hulpverlener"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments",
+          "valueString" : "Anders"
+        }],
+        "code" : "9",
+        "display" : "Anders"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments",
+          "valueString" : "Voogd"
+        }],
+        "code" : "11",
+        "display" : "Voogd"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments",
+          "valueString" : "Bewindvoerder"
+        }],
+        "code" : "14",
+        "display" : "Bewindvoerder"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments",
+          "valueString" : "Mentor"
+        }],
+        "code" : "15",
+        "display" : "Mentor"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments",
+          "valueString" : "Buur"
+        }],
+        "code" : "19",
+        "display" : "Buur"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments",
+          "valueString" : "Vriend(in)/kennis"
+        }],
+        "code" : "20",
+        "display" : "Vriend(in)/kennis"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments",
+          "valueString" : "Cliëntondersteuner"
+        }],
+        "code" : "21",
+        "display" : "Cliëntondersteuner"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments",
+          "valueString" : "Contactpersoon"
+        }],
+        "code" : "23",
+        "display" : "Contactpersoon"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments",
+          "valueString" : "Wettelijke vertegenwoordiger"
+        }],
+        "code" : "24",
+        "display" : "Wettelijke vertegenwoordiger"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system urn:oid:2.16.840.1.113883.2.4.3.11.22.472"
+}
+-------------------------------------------------------------------------------------

@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:oid:2.16.840.1.113883.2.4.4.1.902.40",
+  "code" : "43"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:oid:2.16.840.1.113883.2.4.4.1.902.40"
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code \"43\" is not valid in the system urn:oid:2.16.840.1.113883.2.4.4.1.902.40; The code provided (urn:oid:2.16.840.1.113883.2.4.4.1.902.40#43) is not valid (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------

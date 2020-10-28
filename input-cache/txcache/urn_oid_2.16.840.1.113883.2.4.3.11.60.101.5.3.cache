@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:oid:2.16.840.1.113883.2.4.3.11.60.101.5.3",
+      "concept" : [{
+        "code" : "to",
+        "display" : "Tegenover"
+      },
+      {
+        "code" : "by",
+        "display" : "Bij"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system urn:oid:2.16.840.1.113883.2.4.3.11.60.101.5.3"
+}
+-------------------------------------------------------------------------------------

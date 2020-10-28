@@ -8,6 +8,18 @@
   }
 }}####
 e: {
-  "error" : "Error from server: Unable to provide support for code system urn:oid:2.16.840.1.113883.2.4.4.16.32"
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:6f2e0947-cf7d-45ef-9541-747f04bb4dfc",
+    "timestamp" : "2020-10-27T21:23:16.395Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    }]
+  }
+},
+  "error" : ""
 }
 -------------------------------------------------------------------------------------

@@ -89,3 +89,99 @@ e: {
   "error" : "Error from server: Unable to provide support for code system urn:oid:2.16.840.1.113883.2.4.3.11.60.101.5.1"
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:oid:2.16.840.1.113883.2.4.3.11.60.101.5.1",
+      "concept" : [{
+        "code" : "B",
+        "display" : "Basis"
+      },
+      {
+        "code" : "A",
+        "display" : "Aanvullend verzekerd"
+      },
+      {
+        "code" : "BZ",
+        "display" : "Basisverzekering vanuit AWBZ"
+      },
+      {
+        "code" : "H",
+        "display" : "Hoofdverzekering"
+      },
+      {
+        "code" : "T",
+        "display" : "Tandverzekering (los)"
+      },
+      {
+        "code" : "AT",
+        "display" : "Aanvullend + tand"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system urn:oid:2.16.840.1.113883.2.4.3.11.60.101.5.1"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:oid:2.16.840.1.113883.2.4.3.11.60.101.5.1",
+      "concept" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments",
+          "valueString" : "Basis verzekerd"
+        }],
+        "code" : "B",
+        "display" : "Basis"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments",
+          "valueString" : "Aanvullend verzekerd"
+        }],
+        "code" : "A",
+        "display" : "Aanvullend verzekerd"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments",
+          "valueString" : "Basisverzekering vanuit AWBZ (tegenwoordig uit Wet Langdurige Zorg)"
+        }],
+        "code" : "BZ",
+        "display" : "Basisverzekering vanuit AWBZ"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments",
+          "valueString" : "Een basisverzekering die geen onderdeel uitmaakt van de ZVW of AWBZ (bijvoorbeeld voor expats in het buitenland)."
+        }],
+        "code" : "H",
+        "display" : "Hoofdverzekering"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments",
+          "valueString" : "Tandverzekering"
+        }],
+        "code" : "T",
+        "display" : "Tandverzekering (los)"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments",
+          "valueString" : "Aanvullend + tand"
+        }],
+        "code" : "AT",
+        "display" : "Aanvullend + tand"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system urn:oid:2.16.840.1.113883.2.4.3.11.60.101.5.1"
+}
+-------------------------------------------------------------------------------------

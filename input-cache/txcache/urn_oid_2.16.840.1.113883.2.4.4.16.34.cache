@@ -14,7 +14,7 @@
 v: {
   "display" : "",
   "severity" : "error",
-  "error" : "CodeSystem uri 'urn:oid:2.16.840.1.113883.2.4.4.16.34' is unknown"
+  "error" : "The code \"6030\" is not valid in the system urn:oid:2.16.840.1.113883.2.4.4.16.34; The code provided (urn:oid:2.16.840.1.113883.2.4.4.16.34#6030) is not valid in the value set 'LandGBACodelijst' (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : true, "valueSet" :{
@@ -26,6 +26,18 @@ v: {
   }
 }}####
 e: {
-  "error" : "Error from server: Unable to provide support for code system urn:oid:2.16.840.1.113883.2.4.4.16.34"
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:2eb469d4-4807-4e70-8f8d-54ed265bab36",
+    "timestamp" : "2020-10-27T21:23:16.911Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    }]
+  }
+},
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
