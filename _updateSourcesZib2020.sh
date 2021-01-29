@@ -36,10 +36,7 @@ if [ -e $nictiz_input_source ]; then
     else
         mkdir input/resources
     fi
-    find $nictiz_input_source/Profiles\ -\ ZIB\ 2020 -name "*.xml" -exec cp {} input/resources/ \;
-	if [ -d $nictiz_input_source/CapabilityStatements ]; then
-	   find $nictiz_input_source/CapabilityStatements -name "*.xml" -exec cp {} input/resources/ \;
-	fi
+    find $nictiz_input_source/resources -name "*.xml" -exec cp {} input/resources/ \;
     
     echo Creating IG from input
     if [ -e input/myig.xml ]; then 
