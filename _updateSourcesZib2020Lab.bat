@@ -7,7 +7,8 @@ REM ECHO Deleting .DS_Store files
 REM for /R . %%F in (.DS_Store) do del /F /Q %%F
 
 SET nictiz_input_source=../Nictiz-R4-Zib2020
-SET nictiz_input_examples=../HL7-mappings/ada_2_fhir-r4/lab/3.0.0/beschikbaarstellen_laboratoriumresultaten/fhir_instance
+SET nictiz_input_examples_beschikbaarstellen=../HL7-mappings/ada_2_fhir-r4/lab/3.0.0/beschikbaarstellen_laboratoriumresultaten/fhir_instance
+SET nictiz_input_examples_sturen=../HL7-mappings/ada_2_fhir-r4/lab/3.0.0/sturen_laboratoriumresultaten/fhir_instance
 IF EXIST %nictiz_input_source% (
     ECHO Refreshing source from:
     git -C %nictiz_input_source% status
@@ -19,7 +20,8 @@ IF EXIST %nictiz_input_source% (
     ) ELSE (
         mkdir input\examples
     )
-    for /R %nictiz_input_examples% %%F in (*.xml) do copy "%%F" input\examples\
+    for /R %nictiz_input_examples_beschikbaarstellen% %%F in (*.xml) do copy "%%F" input\examples\
+    for /R %nictiz_input_examples_sturen% %%F in (*.xml) do copy "%%F" input\examples\
     
     ECHO Refresh conformance resources from checked out Git branch
     IF EXIST input\resources (

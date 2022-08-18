@@ -7,7 +7,8 @@ echo Deleting .DS_Store files
 find . -name ".DS_Store" -exec rm {} \;
 
 nictiz_input_source=../Nictiz-R4-Zib2020
-nictiz_input_examples=../HL7-mappings/ada_2_fhir-r4/lab/3.0.0/beschikbaarstellen_laboratoriumresultaten/fhir_instance
+nictiz_input_examples_beschikbaarstellen=../HL7-mappings/ada_2_fhir-r4/lab/3.0.0/beschikbaarstellen_laboratoriumresultaten/fhir_instance
+nictiz_input_examples_sturen=../HL7-mappings/ada_2_fhir-r4/lab/3.0.0/sturen_laboratoriumresultaten/fhir_instance
 if [ -e $nictiz_input_source ]; then
     if [ ! -d input ];
         then mkdir input
@@ -29,7 +30,8 @@ if [ -e $nictiz_input_source ]; then
     else
         mkdir input/examples
     fi
-    find $nictiz_input_examples -name "*.xml" -exec cp {} input/examples/ \;
+    find $nictiz_input_examples_beschikbaarstellen -name "*.xml" -exec cp {} input/examples/ \;
+    find $nictiz_input_examples_sturen -name "*.xml" -exec cp {} input/examples/ \;
     
     echo Refresh conformance resources from checked out Git branch
     if [ -e input/resources ]; then
